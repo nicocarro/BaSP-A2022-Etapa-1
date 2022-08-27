@@ -104,39 +104,23 @@
         </section>
         <section id="section-fourth">
             <h2>Get some info</h2>
-            <div id="fourth-content">
-                <div class="fourth-content-item">
-                    <h4>Full name:</h4>
-                    <input type="text" name="Full name" placeholder="Full name">
-                </div>
-                <div class="fourth-content-item">
-                    <h4>Email:</h4>
-                    <input type="email" name="Email" placeholder="Email">
-                </div>
-                <div class="fourth-content-item">
-                    <h4>Message:</h4>
-                    <input type="text" name="Message" placeholder="Message">
-                </div>
-            </div>
-            <div id="fourth-content-options">
+            <form action="">
+                <label for="fname">Full Name</label>
+                <input type="text" placeholder="Full Name">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email">
+                <textarea name="message"cols="30" rows="10" placeholder="Message"></textarea>
+
                 <h4>Contact area:</h4>
-                <div class="fourth-content-option">
-                    <input type="checkbox">
-                    <span>Human Resources</span>
-                </div>
-                <div class="fourth-content-option">
-                    <input type="checkbox">
-                    <span>Systems</span>
-                </div>
-                <div class="fourth-content-option">
-                    <input type="checkbox">
-                    <span>Marketing</span>
-                </div>
-            </div>
-            <div id="fourth-actions">
-                <button>Reset</button>
-                <button>Send</button>
-            </div>
+                <input type="radio" value="Human Resources">
+                <label for="Human Resources">Human Resources</label>
+                <input type="radio" value="Systems">
+                <label for="systems">Systems</label>
+                <input type="radio" value="Marketing">
+                <label for="Marketing">Marketing</label>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Send">
+            </form>
         </section>
         <section id="section-fifth">
             <h2>History of the business</h2>
