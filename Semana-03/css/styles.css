@@ -1,9 +1,21 @@
 *{
     font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
+p{
+    color: #373867;
+}
+a{
+    color: #373867;
+}
 body{
-    position: relative;
+    padding: 10px;
+}
+header{
+    padding-left: 30%;
+    padding-right: 5%;
 }
 #header-content{
 }
@@ -36,11 +48,64 @@ header hr{
 
 
 aside{
-    width: 20vw;
+    width: 28%;
     float: left;
-    height: 100vh;
+    height: 100%;
+    position: absolute;
+    background-color: #AACE9B;
+    padding-left: 20px;
 }
 
 #nav-title-menu{
     font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#nav-title-sub{
+    width: 80px;
+    float: left;
+    height: 1px;
+    background-color: tomato;
+    border: none;
+}
+
+#nav-links{
+    margin-top: 100px;
+}
+
+nav li{
+    margin-top: 40px;
+}
+
+nav li a{
+    font-size: 20px;
+}
+#nav-get-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#nav-get-sub{
+    width: 170px;
+    float: left;
+    height: 1px;
+    background-color: tomato;
+    border: none;
+}
+#nav-get-text{
+    margin-top: 30px;
+}
+
+.nav-link-sub{
+    width: 450px;
+    margin-right: 200px;
+    height: 1px;
+    border: none;
+    background-color:grey;
+}
+
+
+main{
+    position: absolute;
+    margin-left: 30%;
 }
