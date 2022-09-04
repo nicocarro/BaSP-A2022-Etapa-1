@@ -1,7 +1,11 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 
-
-header{
-    
+body{
+    position: relative;
+}
+#header-content{
 }
 
 header span{
@@ -10,7 +14,33 @@ header span{
 
 header ul{
     list-style: none;
+    float: right;
+}
+header ul li{
+    display: inline;
 }
 header ul a{
     color: grey;
+    font-size: 25px;
+}
+header ul a:hover{
+    color: tomato;
+}
+
+header hr{
+    width: 90%;
+    height: 1px;
+    background-color: tomato;
+    border: none;
+}
+
+
+aside{
+    width: 20vw;
+    float: left;
+    height: 100vh;
+}
+
+#nav-title-menu{
+    font-size: 30px;
 }
