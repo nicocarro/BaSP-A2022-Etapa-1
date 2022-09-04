@@ -10,6 +10,9 @@ p{
 a{
     color: #373867;
 }
+span{
+    color: #373867;
+}
 body{
     padding: 10px;
 }
@@ -17,6 +20,9 @@ header{
     padding-left: 30%;
     padding-right: 5%;
 }
+
+
+
 #header-content{
 }
 
@@ -32,7 +38,7 @@ header ul li{
     display: inline;
 }
 header ul a{
-    color: grey;
+    color: #5D5D5D;
     font-size: 25px;
 }
 header ul a:hover{
@@ -40,11 +46,13 @@ header ul a:hover{
 }
 
 header hr{
-    width: 90%;
+    width: 100%;
     height: 1px;
     background-color: tomato;
     border: none;
 }
+
+
 
 
 aside{
@@ -97,13 +105,17 @@ nav li a{
 }
 
 .nav-link-sub{
-    width: 450px;
+    width: 90%;
     margin-right: 200px;
     height: 1px;
     border: none;
     background-color:grey;
 }
 
+#nav-contact i{
+    color: #373867;
+    font-size: 20px;
+}
 
 main{
     position: absolute;
