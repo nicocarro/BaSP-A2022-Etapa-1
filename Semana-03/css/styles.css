@@ -16,6 +16,9 @@ span{
 h1{
     color: #373867;
 }
+h2{
+    color: #373867;
+}
 body{
     padding: 10px;
 }
@@ -61,6 +64,7 @@ aside{
     position: absolute;
     background-color: #AACE9B;
     padding-left: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 #nav-title-menu{
@@ -160,4 +164,37 @@ main{
 
 main h1{
     font-size: 40px;
+}
+
+
+
+
+
+#section-second h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+#section-second-sub{
+    width: 350px;
+    float: left;
+    height: 1px;
+    background-color: #FF3E1D;
+    border: none;   
+}
+
+
+
+#section-third h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#section-third-sub{
+    width: 350px;
+    float: left;
+    height: 1px;
+    background-color: #FF3E1D;
+    border: none; 
 }
