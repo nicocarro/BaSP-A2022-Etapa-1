@@ -61,7 +61,7 @@ aside{
     width: 28%;
     float: left;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background-color: #AACE9B;
     padding-left: 20px;
     font-family: 'Inter', sans-serif;
@@ -162,6 +162,11 @@ main{
     color: #fff;
 }
 
+#section-first-end{
+    margin-top: 60px;
+    width: 95%;
+}
+
 main h1{
     font-size: 40px;
 }
@@ -184,12 +189,41 @@ main h1{
     border: none;   
 }
 
+#section-second-content{
+    width: 100%;
+    position: relative;
+}
+
+
+#up-left{
+    width: 30%;
+}
+#up-right{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+}
+#down-left{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+}
+#down-right{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+}
+
+
 
 
 #section-third h2{
     font-size: 30px;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 #section-third-sub{
     width: 350px;
@@ -197,4 +231,7 @@ main h1{
     height: 1px;
     background-color: #FF3E1D;
     border: none; 
+}
+#section-third-content{
+    display: inline-block;
 }
