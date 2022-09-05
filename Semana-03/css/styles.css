@@ -193,8 +193,9 @@ main h1{
 
 
 .section-second-item{
-    width: 50%;
+    width: 45%;
     float: left;
+    margin-right: 40px;
 }
 
 #down-left{
@@ -215,7 +216,17 @@ main h1{
 #section-third{
     margin-top: 500px;
 }
+#section-third h2{
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+}
 
+.section-third-subt{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 .btn-feat{
     border-color: #FF3E1D;
@@ -231,6 +242,13 @@ main h1{
     color: #fff;
 }
 
+.section-third-item{
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
 
 
 
@@ -238,18 +256,19 @@ main h1{
     display: inline-block;
 }
 #section-fourth h2{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     margin-top: 50px;
+    margin-right: 50%;
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
 }
 
 .section-fourth-part{
     width: 40%;
-    display: inline-block;
+    float: left;
 }
 #contact-area{
-    position: relative;
-    left: 500px;
-    bottom: 100px;
+ float: right;
 }
 
 
@@ -259,7 +278,6 @@ main h1{
 }
 
 #section-fourth form input{
-    display: block;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -268,8 +286,22 @@ main h1{
     text-align: center;
 }
 #section-fourth-btns input{
-    display: inline-block;
 }
+textarea{
+    height: 300px;
+    width: 500px;
+}
+
+#contact-area{
+}
+
+
+.contact-area-elm{
+}
+
+
+
+
 
 
 
