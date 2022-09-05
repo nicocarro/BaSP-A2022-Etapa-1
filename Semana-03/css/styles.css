@@ -21,19 +21,16 @@ h2{
     font-size: 30px;
     font-weight: 700;
 }
-body{
-    padding: 10px;
-}
 header{
     padding-left: 30%;
     padding-right: 5%;
+    padding-top: 30px;
 }
 
 
-header span{
+strong{
     font-weight: 700;
 }
-
 header ul{
     list-style: none;
     float: right;
@@ -48,19 +45,28 @@ header ul a{
 header ul a:hover{
     color: #FF3E1D;
 }
-
 header hr{
-    width: 100%;
-    height: 2   px;
-    background-color: #FF3E1D;
+    background-color:#FF3E1D;
+    height: 2px;
     border: none;
+    width: 100%;
+}
+
+
+#burguer{
+    font-size: 18px;
+    position: fixed;
+    top: 1%;
+    left: 28%;
+    color: #FF3E1D;
+    cursor: pointer;
 }
 
 
 
 
 aside{
-    width: 28%;
+    width: 26%;
     float: left;
     height: 100%;
     position: fixed;
@@ -73,21 +79,18 @@ aside{
     font-size: 30px;
     font-weight: 700;
     margin-top: 10px;
-}
-#nav-title-sub{
-    width: 80px;
-    float: left;
-    height: 2px;
-    background-color: #FF3E1D;
-    border: none;
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 #nav-links{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 nav li{
-    margin-top: 40px;
+    margin-top: 30px;
+    padding-bottom: 5px;
 }
 
 nav li a{
@@ -96,14 +99,10 @@ nav li a{
 #nav-get-title{
     font-size: 30px;
     font-weight: 700;
-    margin-top: 100px;
-}
-#nav-get-sub{
-    width: 170px;
-    float: left;
-    height: 2px;
-    background-color: #FF3E1D;
-    border: none;
+    margin-top: 50px;
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 #nav-get-text{
     margin-top: 30px;
@@ -120,6 +119,14 @@ nav li a{
 #nav-contact i{
     color: #373867;
     font-size: 20px;
+}
+nav hr{
+    border: none;
+    background-color: grey;
+    height: 2px;
+    width: 90%;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
 
@@ -164,95 +171,49 @@ main{
     color: #fff;
 }
 
-#section-first-end{
-    margin-top: 60px;
-    width: 95%;
-    height: 2px;
-    border: none;
-    background-color:grey;
-}
-
 main h1{
     font-size: 40px;
 }
 
 
-
+#section-second-content{
+    margin-bottom: 100px;
+    position: relative;
+}
 
 
 #section-second h2{
     margin-top: 100px;
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
 }
 
-#section-second-sub{
-    width: 350px;
+
+
+.section-second-item{
+    width: 50%;
     float: left;
-    height: 2px;
-    background-color: #FF3E1D;
-    border: none;   
 }
 
-#section-second-content{
-    width: 100%;
-    position: relative;
-}
-
-#up-left{
-    width: 30%;
-}
-#up-right{
-    width: 30%;
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-}
 #down-left{
-    width: 30%;
     position: absolute;
-    left: 0px;
-    top: 300px;
+    top: 250px;
 }
 #down-right{
-    width: 30%;
     position: absolute;
+    top: 250px;
     left: 50%;
-    top: 300px;
-}
-
-#section-second-end{
-    position: relative;
-    top: 300px;
-    width: 95%;
-    height: 2px;
-    border: none;
-    background-color:grey;
 }
 
 
 
-#section-third h2{
-    margin-top: 350px;
-}
-#section-third-sub{
-    width: 130px;
-    float: left;
-    height: 2px;
-    background-color: #FF3E1D;
-    border: none; 
-    margin-bottom: 50px;
-}
 
-.section-third-item{
-    width: 30%;
-}
-.section-third-item img{
-    margin-bottom: 20px;
-}
 
-.section-third-subt{
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 20px;
+
+#section-third{
+    margin-top: 500px;
 }
 
 
@@ -320,4 +281,17 @@ main h1{
 
 #section-fifth-content{
     position: relative;
+}
+
+#something-up-left{
+    float: left;
+}
+#something-down-right{
+    float: right;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    margin-top: 50px;
 }
