@@ -5,155 +5,179 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/4562899e69.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/Semana-03/css/reset.css">
-        <link rel="stylesheet" href="/Semana-03/css/styles.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
         <title>Landing page</title>
     </head>
     <body>
-        <header>
-            <div id="header-content">
-                <div id="header-content-text">
-                    <p><span>Trackgenix</span> by GigaTech SoftWare Solutions SA</p>
-                </div>
-                <div id="header-content-icons">
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-        </header>
         <aside>
             <nav>
                 <p id="nav-title-menu">Menu</p>
-                <div>
+                <div id="nav-links">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">SignUp</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li>
+                            <a href="#">Home</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">SignUp</a>
+                            <hr>
+                        </li>
+                        <li>
+                            <a href="#">Login</a>
+                            <hr>
+                        </li>
                     </ul>            
                 </div>
                 <div>
-                    <p>Get in touch</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam doloribus ipsum nobis ad sed nisi voluptate hic eum eligendi, enim nemo commodi? Commodi harum suscipit iusto. Delectus, nisi inventore?</p>
-                    <ul>
-                        <li>
+                    <p id="nav-get-title">Get in touch</p>
+                    <p id="nav-get-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aperiam doloribus ipsum nobis ad sed nisi voluptate hic eum eligendi, enim nemo commodi? Commodi harum suscipit iusto. Delectus, nisi inventore?</p>
+                    <ul id="nav-contact">
+                        <li class="nav-contact-elem">
                             <i class="fa-solid fa-envelope"></i>
-                            <p>infotrackgenix@something.idk</p>
+                            <span>infotrackgenix@something.idk</span>
                         </li>
                         <li>
                             <i class="fa-solid fa-house"></i>
-                            <p>1234 Somewhere Road A8254 Nashville, TN 00000-0000</p>
+                            <span>1234 Somewhere Road A8254 Nashville, TN 00000-0000</span>
                         </li>
                         <li>
                             <i class="fa-solid fa-phone-flip"></i>
-                            <p>(000) 000-0000</p>
+                            <span>(000) 000-0000</span>
                         </li>
                     </ul>
                 </div>
             </nav>
         </aside>
+        <header>
+            <a href=""><strong>Trackgenix</strong> by GigaTech SoftWare Solutions SA</a>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="burguer"></i>
+            <hr>
+        </header>
         <main>
-            <section>
-                <div>
+            <section id="section-first">
+                <div id="section-first-text">
                     <h1>Hi, Im Trackgenix by GigaTech SoftWare Solutions SA</h1>
-                    <p>A practical and easy to use system</p>
-                    <p>Trackgenix is a web system which facilitates the registration of hours worked by each employee in each project and work team.</p>
-                    <button>LEARN MORE</button>
+                    <p id="section-first-text-subt">A practical and easy to use system</p>
+                    <p id="section-first-text-p">Trackgenix is a web system which facilitates the registration of hours worked by each employee in each project and work team.</p>
+                    <button class="btn-orng">LEARN MORE</button>
                 </div>
-                <div>
+                <div id="section-first-img">
                     <img src="/Semana-01/assets/img1.jpg" alt="person using computer">
                 </div>
             </section>
-            <section>
+            <section id="section-second">
                 <h2>Why you should use me</h2>
-                <div>
-                    <div>
+                <div id="section-second-content">
+                    <div class="section-second-item" id="up-left">
                         <img src="/Semana-01/assets/img1.png" alt="colored cube">
-                        <p>Productivity booster</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deserunt ullam officia debitis exercitationem fugit omnis et optio perspiciatis nulla quaerat voluptas aut alias.</p>
+                        <div>
+                            <p>Productivity booster</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</p>
+                        </div>
                     </div>
-                    <div>
+                    <div class="section-second-item" id="up-right">
                         <img src="/Semana-01/assets/img2.png" alt="space rocket">
-                        <p>Leadership and team management</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deserunt ullam officia debitis exercitationem fugit omnis et optio perspiciatis nulla quaerat voluptas aut alias.</p>
+                        <div>
+                            <p>Leadership and team management</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</p>
+                        </div>
                     </div>
-                    <div>   
+                    <div class="section-second-item" id="down-left">   
                         <img src="/Semana-01/assets/img3.png" alt="gradient cylinder">
                         <p>Work traceability</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deserunt ullam officia debitis exercitationem fugit omnis et optio perspiciatis nulla quaerat voluptas aut alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</p>
                     </div>
-                    <div>
+                    <div class="section-second-item" id="down-right">
                         <img src="/Semana-01/assets/img4.png" alt="diferente color tokens">
                         <p>Desicion making</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deserunt ullam officia debitis exercitationem fugit omnis et optio perspiciatis nulla quaerat voluptas aut alias.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</p>
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="section-third">
                 <h2>Features</h2>
-                <div>
-                    <div>
+                <div id="section-third-content">
+                    <div class="section-third-item">
                         <img src="/Semana-01/assets/img2.jpg" alt="watch close up">
-                        <p>xxxxx</p>
+                        <p class="section-third-subt">Hours Log</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, veritatis.</p>
-                        <button>MORE</button>
+                        <button class="btn-feat">MORE</button>
                     </div>
-                    <div>
+                    <div class="section-third-item">
                         <img src="/Semana-01/assets/img3.jpg" alt="stack of books">
-                        <p>xxxxx</p>
+                        <p class="section-third-subt">Reports</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, veritatis.</p>
-                        <button>MORE</button>
+                        <button class="btn-feat">MORE</button>
                     </div>
-                    <div>
+                    <div class="section-third-item">
                         <img src="/Semana-01/assets/img4.jpg" alt="bord filled whit post it">
-                        <p>xxxxx</p>
+                        <p class="section-third-subt">Resource Management</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, veritatis.</p>
-                        <button>MORE</button>
+                        <button class="btn-feat">MORE</button>
                     </div>
-                    <div>
+                    <div class="section-third-item">
                         <img src="/Semana-01/assets/img5.jpg" alt="team meeting">
-                        <p>xxxxx</p>
+                        <p class="section-third-subt">Multiple Roles</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, veritatis.</p>
-                        <button>MORE</button>
+                        <button class="btn-feat">MORE</button>
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="section-fourth">
                 <h2>Get some info</h2>
                 <form>
-                    <label for="fname">Full Name</label>
-                    <input type="text" placeholder="Full Name">
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Email">
-                    <textarea name="message"cols="30" rows="10" placeholder="Message"></textarea>
-                    <h4>Contact area:</h4>
-                    <input type="radio" value="Human Resources">
-                    <label for="human-resources">Human Resources</label>
-                    <input type="radio" value="Systems">
-                    <label for="systems">Systems</label>
-                    <input type="radio" value="Marketing">
-                    <label for="marketing">Marketing</label>
-                    <input type="reset" value="Reset">
-                    <input type="submit" value="Send">
+                    <div class="section-fourth-part">
+                        <label for="fname">Full Name</label>
+                        <input type="text" placeholder="Full Name">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email">
+                        <textarea name="message"cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="section-fourth-part" id="contact-area">
+                        <h4>Contact area:</h4>
+                        <div class="contact-area-elm">
+                            <input type="radio" value="Human Resources">
+                            <label for="human-resources">Human Resources</label>
+                        </div>
+                        <div class="contact-area-elm">
+                            <input type="radio" value="Systems">
+                            <label for="systems">Systems</label>
+                        </div>
+                        <div class="contact-area-elm">
+                            <input type="radio" value="Marketing">
+                            <label for="marketing">Marketing</label>
+                        </div>
+                    </div>
+                    <div id="section-fourth-btns">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Send">
+                    </div>
                 </form>
             </section>
-            <section>
+            <section id="section-fifth">
                 <h2>History of the business</h2>
-                <div>
+                <div id="section-fifth-content">
                     <h4>The foundation</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, recusandae qui autem mollitia quidem assumenda nesciunt possimus, rerum enim repudiandae ratione molestias a cum blanditiis tenetur? Quibusdam quisquam vel voluptas.</p>
                 </div>
                 <div>
                     <h4>Something else</h4>
-                    <img src="/Semana-01/assets/img6.jpg" alt="person showing tablet to another">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate earum corporis iste similique recusandae dolor cupiditate necessitatibus beatae illum. Ipsa ab fugiat eius nostrum quos veniam blanditiis provident aspernatur rem!</p>
-                    <img src="/Semana-01/assets/img7.jpg" alt="person holding a light bulb">
+                    <div id="something-content">
+                        <img src="/Semana-01/assets/img6.jpg" alt="person showing tablet to another" id="something-up-left">
+                        <p id="something-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate earum corporis iste similique recusandae dolor cupiditate necessitatibus beatae illum. Ipsa ab fugiat eius nostrum quos veniam blanditiis provident aspernatur rem!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur laborum cum incidunt illum reprehenderit numquam ipsa sed doloremque quae, laudantium blanditiis voluptatum est velit quasi odit tenetur deserunt quia! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa sed aliquam ad, impedit architecto ratione id illo soluta illum laudantium labore quaerat nesciunt tenetur quae natus quis facilis dicta enim.
+                        </p>
+                        <img src="/Semana-01/assets/img7.jpg" alt="person holding a light bulb" id="something-down-right">
+                    </div>
                 </div>
             </section>
             <footer>
