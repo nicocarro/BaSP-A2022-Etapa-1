@@ -298,23 +298,28 @@ textarea{
 
 
 
-
+#section-fifth h2{
+    border-bottom: solid 3px #FF3E1D;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
 #section-fifth h4{
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-#section-fifth-content{
-    position: relative;
+#something-tex p{
+    text-align: justify;
 }
 
 #something-up-left{
+    padding: 0 10px 0 0;
     float: left;
 }
 #something-down-right{
     float: right;
-    margin-bottom: 100px;
 }
 
 
