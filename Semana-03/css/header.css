@@ -1,0 +1,39 @@
+header{
+    padding-top: 20px;
+    position: relative;
+}
+header ul{
+    list-style: none;    
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 25%;
+    top: 5px;
+}
+header ul a{
+    color: #5D5D5D;
+    font-size: 18px;
+    padding: 5px;
+}
+header ul a:hover{
+    color: #FF3E1D;
+}
+header hr{
+    background-color:#FF3E1D;
+    height: 2px;
+    border: none;
+    width: 100%;
+}
+
+#burguer{
+    font-size: 18px;
+    position: fixed;
+    top: 1%;
+    left: 10px;
+    color: #FF3E1D;
+    cursor: pointer;
+}
+
+header .header-text{
+    font-size: 12px;
+}

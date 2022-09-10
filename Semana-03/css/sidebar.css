@@ -1,0 +1,13 @@
+aside{
+    display: none;
+}
+
+aside{
+    width: 26%;
+    float: left;
+    height: 100vh;
+    position: fixed;
+    background-color: #AACE9B;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+}

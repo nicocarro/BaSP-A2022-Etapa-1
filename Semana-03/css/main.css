@@ -1,0 +1,15 @@
+
+main{
+    margin: auto;
+}
+
+
+/*FIRST SECTION*/
+
+
+
+
+#section-second{
+    display: flex;
+    flex-direction: column;
+}
