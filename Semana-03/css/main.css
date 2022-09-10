@@ -1,12 +1,21 @@
 
 main{
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 /*FIRST SECTION*/
-
-
+#section-first-text h1{
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#section-first-text-subt{
+    font-size: 20px;
+}
 
 
 #section-second{
