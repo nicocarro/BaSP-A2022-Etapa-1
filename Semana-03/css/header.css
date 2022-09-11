@@ -1,14 +1,13 @@
 header{
-    padding-top: 20px;
-    position: relative;
+    padding-top: 30px;
+    background-color: aqua;
 }
 header ul{
-    list-style: none;    
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
     position: absolute;
-    right: 25%;
-    top: 5px;
+    right: 0;
+    top: 0;
 }
 header ul a{
     color: #5D5D5D;
@@ -22,7 +21,7 @@ header hr{
     background-color:#FF3E1D;
     height: 2px;
     border: none;
-    width: 100%;
+    width: 90%;
 }
 
 #burguer{
@@ -35,5 +34,4 @@ header hr{
 }
 
 header .header-text{
-    font-size: 12px;
 }
