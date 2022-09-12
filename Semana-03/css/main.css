@@ -26,6 +26,21 @@
 }
 
 
+/*SECOND SECTION*/
+
+#section-second h2{
+    margin-bottom: 30px;
+}
+.item-subt{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-second-item{
+    margin-top: 30px;
+}
+
 
 
 
@@ -40,6 +55,26 @@
 }
 
 
+/*THIRD SECTION*/
 
-#section-third img{
+#section-third h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.section-third-item{
+    margin-top: 30px;
+}
+.section-third-subt{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*THIRD SECTION*/
+
+#section-fourth h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
