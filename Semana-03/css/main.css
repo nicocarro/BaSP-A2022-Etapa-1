@@ -1,13 +1,8 @@
 
 /*FIRST SECTION*/
-#section-first{
-    position: relative;
-}
 #section-first-img img{
     width: 100%;
     margin-bottom: 50px;
-}
-#section-first-text-p{
 }
 #section-first-text h1{
     font-size: 30px;
@@ -15,15 +10,36 @@
 #section-first-text-subt{
     font-size: 18px;
     font-weight: 100;
-    margin-top: -20px;
+    margin-top: 10px;
     margin-bottom: -20px;
     text-transform: uppercase;
 }
-#section-first button{
-    position: absolute;
-    bottom: 0;
-}
 
+@media (min-width:480px){
+    #section-first-cont{
+        display: flex;
+    }
+    #section-first-text h1{
+        font-size: 45px;
+    }
+    #section-first-text-subt{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #section-first-text-p{
+        font-size: 18px;
+    }
+    #section-first-img{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #section-first button{
+        font-size: 15px;
+        height: 35px;
+        width: 180px;
+    }
+}
 
 /*SECOND SECTION*/
 
@@ -39,11 +55,6 @@
 .section-second-item{
     margin-top: 30px;
 }
-
-
-
-
-
 #section-second{
     margin-top: -30px;
 }
@@ -51,6 +62,33 @@
     margin-top: -30px;
 }
 
+@media (min-width:480px){
+    #section-second h2{
+        font-size: 35px;
+    }
+    #section-second-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-second-item{
+        width: 45%;
+    }
+    #up-right{
+        margin-left: 5%;
+    }
+    #down-right{
+        margin-left: 5%;
+    }
+    .section-second-item img{
+        width:50%;
+    }
+    .section-second-item p{
+        font-size: 18px;
+    }
+    .item-subt{
+        font-size: 22px;
+    }
+}
 
 /*THIRD SECTION*/
 
@@ -68,6 +106,29 @@
     margin-bottom: 10px;
 }
 
+@media (min-width:480px){
+    #section-third h2{
+        font-size: 35px;
+    }
+    #section-third-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-third-item{
+        width: 45%;
+    }
+    #right-up{
+        margin-left: 5%;
+    }
+    #right-down{
+        margin-left: 5%;
+    }
+    .btn-feat{
+        font-size: 15px;
+        height: 35px;
+        width: 150px;
+    }
+}
 
 /*FOURTH SECTION*/
 
@@ -101,6 +162,15 @@ textarea{
     border-radius: 5px;
 }
 
+@media (min-width:480px){
+    #part-one{
+        display: flex;
+    }
+    .part-one-input{
+        width: 50%;
+    }
+}
+
 /*FIFTH SECTION*/
 
 #section-fifth h4{
@@ -116,4 +186,10 @@ textarea{
 #something-content img{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+@media (min-width:480px){
+    #something-content{
+        width: 45%;
+    }
 }

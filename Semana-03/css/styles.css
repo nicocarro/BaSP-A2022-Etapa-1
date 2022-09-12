@@ -22,7 +22,7 @@ h1{
 h2{
     color: #373867;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 
@@ -97,17 +97,6 @@ nav hr{
 
 
 
-
-
-
-
-
-
-
-
-
-#section-first-text{
-}
 #section-first-text h1{
     padding-bottom: 50px;
 }
@@ -119,8 +108,6 @@ nav hr{
     padding-bottom: 30px;
 }
 
-#section-first-img{
-}
 
 
 .btn-orng{
@@ -150,13 +137,6 @@ main h1{
     padding-bottom: 5px;
     margin-bottom: 100px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -194,11 +174,6 @@ main h1{
 
 
 
-
-
-
-
-
 #section-fifth h2{
     border-bottom: solid 3px #FF3E1D;
     display: inline-block;
@@ -228,4 +203,11 @@ footer ul li{
 footer ul li a{
     color: #5D5D5D;
     font-size: 25px;
+}
+
+
+@media (min-width:480px){
+    body{
+        padding: 45px;
+    }
 }
