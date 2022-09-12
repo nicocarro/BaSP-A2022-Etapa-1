@@ -24,7 +24,7 @@ header hr{
 }
 
 #burguer{
-    font-size: 18px;
+    font-size: 20px;
     position: fixed;
     top: 1%;
     left: 20px;
@@ -37,4 +37,28 @@ header hr{
     font-size: 14px;
     position: relative;
     top: 50%;
+}
+
+
+
+@media (min-width:480px){
+    header ul a{
+        color: #5D5D5D;
+        font-size: 25px;
+        padding: 5px;
+    }
+    #burguer{
+        font-size: 25px;
+        position: fixed;
+        top: 1%;
+        left: 20px;
+        z-index: 100;
+        color: #FF3E1D;
+        cursor: pointer;
+    }
+    .header-text{
+        font-size: 20px;
+        position: relative;
+        top: 50%;
+    }
 }
