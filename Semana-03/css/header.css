@@ -1,17 +1,16 @@
 header{
-    padding-top: 30px;
     background-color: aqua;
+    height: 80px;
 }
 header ul{
     display: flex;
-    justify-content: flex-end;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 8%;
+    top: 1%;
 }
 header ul a{
     color: #5D5D5D;
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
 }
 header ul a:hover{
@@ -21,7 +20,8 @@ header hr{
     background-color:#FF3E1D;
     height: 2px;
     border: none;
-    width: 90%;
+    width: 100%;
+    margin-top: 50px;
 }
 
 #burguer{
@@ -33,5 +33,8 @@ header hr{
     cursor: pointer;
 }
 
-header .header-text{
+.header-text{
+    font-size: 12px;
+    position: relative;
+    top: 50%;
 }

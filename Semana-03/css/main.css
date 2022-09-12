@@ -1,29 +1,45 @@
 
-main{
-}
-
-
 /*FIRST SECTION*/
 #section-first{
     background-color: beige;
+    position: relative;
 }
-#section-first-img{
-    width: 100%;
+#section-first-img img{
+    width: 110%;
+    margin-bottom: 50px;
 }
-
+#section-first-text-p{
+}
 #section-first-text h1{
+    font-size: 30px;
 }
 #section-first-text-subt{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    text-transform: uppercase;
 }
+#section-first button{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
 
 
 #section-second{
+    background-color: aquamarine;
+    margin-top: -30px;
 }
-
+#section-second{
+    background-color: aquamarine;
+    margin-top: -30px;
+}
 
 
 
 #section-third img{
-    width: 100vw;
 }
