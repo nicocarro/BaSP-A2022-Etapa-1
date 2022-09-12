@@ -72,7 +72,7 @@
 }
 
 
-/*THIRD SECTION*/
+/*FOURTH SECTION*/
 
 #section-fourth h2{
     margin-top: 50px;
@@ -85,6 +85,7 @@
 #part-one input{
     margin-top: 10px;
     margin-bottom: 20px;
+    height: 20px;
 }
 
 #contact-area input{
@@ -100,4 +101,22 @@ textarea{
 #section-fourth-btns input{
     width: 100px;
     height: 30px;
+    border-radius: 5px;
+}
+
+/*FIFTH SECTION*/
+
+#section-fifth h4{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#something-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#something-content img{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
