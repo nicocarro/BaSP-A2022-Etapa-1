@@ -5,6 +5,7 @@ footer{
 .footer-list-elem{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .footer-list-elem h4{
     font-weight: 500;
