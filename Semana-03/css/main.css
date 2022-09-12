@@ -78,3 +78,26 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+#part-one{
+    display: flex;
+    flex-direction: column;
+}
+#part-one input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-area input{
+    margin-top: 10px;
+}
+
+textarea{
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#section-fourth-btns input{
+    width: 100px;
+    height: 30px;
+}
