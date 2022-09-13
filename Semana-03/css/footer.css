@@ -34,3 +34,9 @@ footer ul{
         margin-bottom: 10px;
     }
 }
+
+@media (min-width:480px){
+    .footer-list-elem{
+        flex-wrap: nowrap;
+    }
+}
