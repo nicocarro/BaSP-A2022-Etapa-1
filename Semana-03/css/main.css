@@ -74,10 +74,10 @@
         width: 45%;
     }
     #up-right{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #down-right{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .section-second-item img{
         width:50%;
@@ -118,10 +118,10 @@
         width: 45%;
     }
     #right-up{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #right-down{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .btn-feat{
         font-size: 15px;
@@ -179,17 +179,11 @@ textarea{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#something-content{
-    display: flex;
-    flex-wrap: wrap;
-}
 #something-content img{
     margin-top: 10px;
     margin-bottom: 20px;
+    height: 100%;
 }
 
 @media (min-width:480px){
-    #something-content{
-        width: 45%;
-    }
 }
