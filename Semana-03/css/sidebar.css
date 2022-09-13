@@ -1,13 +1,18 @@
-aside{
-    display: none;
-}
 
 aside{
-    width: 26%;
-    float: left;
+    display: none;
+    width: 25%;
     height: 100vh;
     position: fixed;
     background-color: #AACE9B;
-    padding-left: 20px;
     font-family: 'Inter', sans-serif;
+}
+nav{
+    padding-left: 20px;
+}
+
+@media (min-width:768px){
+    aside{
+        display: block;
+    }
 }

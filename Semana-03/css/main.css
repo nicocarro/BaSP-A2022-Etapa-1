@@ -152,7 +152,7 @@
 
 textarea{
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -180,10 +180,23 @@ textarea{
     margin-bottom: 10px;
 }
 #something-content img{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     height: 100%;
 }
 
 @media (min-width:480px){
+    #something-down-right{
+    }
+    #something-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width:768px){
+    main{
+        margin-left: 30%;
+    }
 }

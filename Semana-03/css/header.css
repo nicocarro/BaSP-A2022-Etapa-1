@@ -4,8 +4,8 @@ header{
 header ul{
     display: flex;
     position: absolute;
-    right: 20px;
-    top: 1%;
+    right: 5%;
+    top: 2%;
 }
 header ul a{
     color: #5D5D5D;
@@ -26,8 +26,8 @@ header hr{
 #burguer{
     font-size: 20px;
     position: fixed;
-    top: 1%;
-    left: 20px;
+    top: 2%;
+    left: 5%;
     z-index: 100;
     color: #FF3E1D;
     cursor: pointer;
@@ -51,7 +51,6 @@ header hr{
         font-size: 25px;
         position: fixed;
         top: 1%;
-        left: 10px;
         z-index: 100;
         color: #FF3E1D;
         cursor: pointer;
@@ -60,5 +59,14 @@ header hr{
         font-size: 20px;
         position: relative;
         top: 50%;
+    }
+}
+
+@media (min-width:768px){
+    header{
+        margin-left: 30%;
+    }
+    #burguer{
+        margin-left: 24%;
     }
 }

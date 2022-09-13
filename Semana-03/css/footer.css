@@ -30,6 +30,7 @@ footer ul{
         flex-wrap: wrap;
     }
     .footer-list-obj{
-        width: 40%;
+        width: 50%;
+        margin-bottom: 10px;
     }
 }
