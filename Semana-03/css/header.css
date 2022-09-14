@@ -5,7 +5,7 @@ header ul{
     display: flex;
     position: absolute;
     right: 5%;
-    top: 2%;
+    top: 1%;
 }
 header ul a{
     color: #5D5D5D;
@@ -25,7 +25,7 @@ header hr{
 #burguer{
     font-size: 20px;
     position: fixed;
-    top: 2%;
+    top: 1%;
     left: 5%;
     z-index: 100;
     color: #FF3E1D;

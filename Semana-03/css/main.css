@@ -1,17 +1,21 @@
 
 /*FIRST SECTION*/
+
+#section-first{
+    border-bottom: solid grey;
+    padding-bottom: 50px;
+}
 #section-first-img img{
     width: 100%;
     margin-bottom: 50px;
 }
 #section-first-text h1{
     font-size: 30px;
+    margin-top: 30px;
 }
 #section-first-text-subt{
     font-size: 18px;
     font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: -20px;
     text-transform: uppercase;
 }
 
@@ -43,6 +47,10 @@
 
 /*SECOND SECTION*/
 
+#section-second{
+    border-bottom: solid grey;
+    padding-bottom: 50px;
+}
 #section-second h2{
     margin-bottom: 30px;
 }
@@ -92,6 +100,10 @@
 
 /*THIRD SECTION*/
 
+#section-third{
+    border-bottom: solid grey;
+    padding-bottom: 50px;
+}
 #section-third h2{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -132,6 +144,10 @@
 
 /*FOURTH SECTION*/
 
+#section-fourth{
+    border-bottom: solid grey;
+    padding-bottom: 50px;
+}
 #section-fourth h2{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -161,6 +177,18 @@ textarea{
     height: 30px;
     border-radius: 5px;
 }
+#reset{
+    background-color: red;
+}
+#reset:hover{
+    opacity: 0.8;
+}
+#send{
+    background-color: #AACE9B;
+}
+#send:hover{
+    opacity: 0.8;
+}
 
 @media (min-width:480px){
     #part-one{
@@ -173,6 +201,10 @@ textarea{
 
 /*FIFTH SECTION*/
 
+#section-fifth{
+    border-bottom: solid grey;
+    padding-bottom: 50px;
+}
 #section-fifth h4{
     font-weight: 700;
     font-size: 18px;

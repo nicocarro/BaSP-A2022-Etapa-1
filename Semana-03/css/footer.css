@@ -5,6 +5,8 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-bottom: solid grey;
+    padding-bottom: 50px;
 }
 .footer-list-elem h4{
     font-weight: 500;
