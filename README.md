@@ -6,10 +6,20 @@ The folowing project is created in order to represent the landing page designed 
 
 
 * Week 1:
-  * We use HTML lenguage in order to recreate the basic structure of the landing page.
+  * We used HTML lenguage in order to recreate the basic structure of the landing page.
 
-If you want to run it, you can enter de folder "Semana-01" and open the file "index.html" on your browser.
 
+- Week 2:
+  - We used CSS in order to give the basic HTML structure the respectives styles to look like the desgined page.
+  
+
+- Week 3:
+  - We implemented Flex and MediaQuerys, in order to make the page responsive to diferents devices resolutions.
+
+
+*If you want to run it, you can click the next link.*
+
+[GitHub Pages](nicocarro.github.io)
 
 _Nicolás Carro_
 =======
