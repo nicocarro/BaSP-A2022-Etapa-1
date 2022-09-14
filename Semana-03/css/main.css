@@ -186,14 +186,11 @@ textarea{
 }
 
 @media (min-width:480px){
-    #something-down-right{
-    }
     #something-content{
         display: flex;
         flex-wrap: wrap;
     }
 }
-
 
 @media (min-width:768px){
     main{
